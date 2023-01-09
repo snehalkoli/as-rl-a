@@ -13,7 +13,7 @@ export const Front:React.FC = () => {
         <FirstContainer id="home">
             <FirstBg>
             {/* type='video/mp4' */}
-                <VideoBg autoPlay loop muted src={Video}/>
+                {/* <VideoBg autoPlay loop muted src={Video}/> */}
             </FirstBg>
             <PageContent>
                 <PageH1>Find the degrees of separation</PageH1>
