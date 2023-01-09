@@ -8,7 +8,7 @@ interface Props {
 export const Nav = styled.nav`
      /* background: #E2C2B9; */
      /* background: #E2C2B9; */
-     background: ${({scrollNav}:Props)=>(scrollNav?'#e2aebd':'transparent')};
+     background: ${({scrollNav}:Props)=>(scrollNav?'#011f4b':'transparent')};
      margin-top: -80px;
      height: 80px;
      width: 100%;
@@ -21,9 +21,9 @@ export const Nav = styled.nav`
      top:0;
      z-index: 10;
 
-     @media screen and(max-width:960px){
-         transition: 0.8s all ease;
-     }
+    //  @media screen and(max-width:960px){
+    //      transition: 0.8s all ease;
+    //  }
 `
 export const NavbarContainer = styled.div`
     display: flex;

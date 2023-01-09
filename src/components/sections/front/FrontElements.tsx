@@ -42,7 +42,7 @@ export const VideoBg = styled.video`
     height: 100%;
     --o-object-fit:cover;
     object-fit:cover ;
-    background: #E2C2B9;
+    background: #011f4b;
 `
 export const PageContent = styled.div`
 z-index:3;
@@ -98,7 +98,7 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `
 export const ButtonF= styled(Link)`
     border-radius: 50px;
-    background: #ca7c93;
+    background: #011f4b ;
     white-space: nowrap;
     padding: 10px 22px;
     color:#F4F9F9;
