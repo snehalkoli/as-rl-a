@@ -55,7 +55,7 @@ const Navbar:React.FC<any>=({ toggle })=> {
                                 delay={0}
                                 smooth={true}
                             >
-                                Add People
+                                Add
                             </NavLinks>
                         </NavItem>
                         <NavItem>
@@ -67,7 +67,7 @@ const Navbar:React.FC<any>=({ toggle })=> {
                                 // smooth={true}
                                 delay={0}
                                 smooth={true}
-                            >Set Relationship
+                            >Set Friend
                             </NavLinks>
                         </NavItem>
                         <NavItem>
@@ -79,7 +79,7 @@ const Navbar:React.FC<any>=({ toggle })=> {
                                 spy={true}
                                 offset={-80}
                                 >
-                                Find Connection
+                                Find Degrees Of Separation
                             </NavLinks>
                         </NavItem>
                     </NavMenu>
